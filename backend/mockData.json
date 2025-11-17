@@ -1,0 +1,17 @@
+{
+  "sessions": [
+    {
+      "id": "session-1763254307649",
+      "title": "New Chat"
+    }
+  ],
+  "sessionHistory": {
+    "1234": [
+      {
+        "question": "what is javascript",
+        "answer": "JavaScript is a high-level, versatile programming language used to build dynamic and interactive websites."
+      }
+    ],
+    "session-1763254307649": []
+  }
+}

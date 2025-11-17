@@ -1,0 +1,16 @@
+### Get all sessions
+GET http://localhost:5000/api/sessions
+
+### Create new chat
+GET http://localhost:5000/api/new-chat
+
+### Get session history
+GET http://localhost:5000/api/session/session-1
+
+### Ask question
+POST http://localhost:5000/api/chat/session-1
+Content-Type: application/json
+
+{
+    "question": "Tell me about React"
+}
