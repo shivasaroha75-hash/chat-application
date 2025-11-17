@@ -17,11 +17,11 @@ if (!fs.existsSync(dataFilePath)) {
 // ---- Load data from JSON file ----
 const rawData = fs.readFileSync(dataFilePath, 'utf8');
 
-// ❌ fix starts here
+// fix starts here
 let data = JSON.parse(rawData);
 let sessions = data.sessions;
 let sessionHistory = data.sessionHistory;
-// ❌ fix ends here
+// fix ends here
 
 // ---- Save function ----
 function saveData() {
